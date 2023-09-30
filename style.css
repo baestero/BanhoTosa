@@ -97,6 +97,11 @@ header {
   object-fit: cover;
   height: 100%;
   object-position: center top;
+
+}
+
+.petmobile{
+  display: none;
 }
 
 @media screen and (max-width: 730px) {
@@ -172,5 +177,13 @@ header {
 
   .tela-inicio-titulo h1 {
     font-size: 2.1rem;
+  }
+
+  .petmobile{
+    display: block;
+  }
+
+  .pet1{
+    display: none;
   }
 }
