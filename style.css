@@ -3,6 +3,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
@@ -13,7 +14,6 @@ body {
 }
 
 header {
-
   margin-top: 10px;
   background: #edb506;
 }
@@ -82,13 +82,55 @@ header {
 }
 
 .tela-inicio-titulo {
-  display: grid;
   text-align: start;
   padding: 60px;
 }
 
 .tela-inicio-titulo h1 {
   font-size: 3rem;
+  color: #fff;
+}
+
+.tela-inicio-titulo p {
+  font-size: 2rem;
+  color: #faf2d3;
+  margin: 20px 0px;
+}
+
+.btn-container {
+  justify-content: start;
+  margin: 60px 0px;
+}
+
+.btn {
+  display: flex;
+  gap: 0 10px;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: #25d366;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+}
+
+.whatsapp {
+  height: 24px;
+  width: 24px;
+}
+
+.titulo-2 {
+  background-color: #0079ff;
+  padding: 24px 60px 1px;
+}
+
+.titulo-2 h1 {
+  font-size: 3rem;
+  color: white;
+}
+.titulo-2 p {
+  font-size: 1.5rem;
   color: #faf2d3;
 }
 
@@ -97,11 +139,56 @@ header {
   object-fit: cover;
   height: 100%;
   object-position: center top;
-
 }
 
-.petmobile{
+.petmobile {
   display: none;
+}
+
+.tratamentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #0079ff;
+}
+
+.tratamentos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.tratamentos-container div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 120px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+}
+
+.tratamentos-container div p {
+  text-align: center;
+  color: grey;
+}
+
+.container-item {
+  display: grid;
+  justify-items: center;
+
+  gap: 5px;
+  padding: 10px;
+}
+
+.tratamentos img {
+  max-width: 75%;
+}
+
+.pet2-img {
+  display: grid;
+  justify-items: center;
 }
 
 @media screen and (max-width: 730px) {
@@ -173,17 +260,53 @@ header {
 
   .tela-inicio-titulo {
     text-align: start;
+    padding: 20px 60px;
   }
 
   .tela-inicio-titulo h1 {
     font-size: 2.1rem;
   }
 
-  .petmobile{
+  .tela-inicio-titulo p {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+
+  .petmobile {
     display: block;
   }
 
-  .pet1{
+  .pet1 {
     display: none;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pet2-img img {
+    width: 100%;
+  }
+
+  .tratamentos-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding: 60px;
+  }
+
+  .tratamentos {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #0079ff;
+  }
+
+  .titulo-2 h1 {
+    font-size: 2.1rem;
+  }
+  .titulo-2 p {
+    font-size: 1.2rem;
+    margin: 20px 0;
   }
 }
