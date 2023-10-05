@@ -9,13 +9,12 @@
 
 body {
   display: grid;
-  max-width: 1200px;
   margin: 0 auto;
+  background: #e7e7e7;
 }
 
 header {
-  margin-top: 10px;
-  background: #edb506;
+  background: #ffaf00;
 }
 
 .navbar {
@@ -26,7 +25,10 @@ header {
 
 .logo {
   display: flex;
-  color: #faf2d3;
+}
+
+.logo img{
+  width: 100px;
 }
 
 .nav-list {
@@ -77,8 +79,8 @@ header {
 
 .tela-inicio {
   display: grid;
-  grid-template-columns: 2fr 1.5fr;
-  background: #edb506;
+  grid-template-columns: 1fr 1.5fr;
+  background: #ffaf00;
 }
 
 .tela-inicio-titulo {
@@ -121,8 +123,8 @@ header {
 }
 
 .titulo-2 {
-  background-color: #0079ff;
-  padding: 24px 60px 1px;
+  background-color: #3888ff;
+  padding: 60px 60px 0;
 }
 
 .titulo-2 h1 {
@@ -141,20 +143,17 @@ header {
   object-position: center top;
 }
 
-.petmobile {
-  display: none;
-}
-
 .tratamentos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  background: #0079ff;
+  grid-template-columns: 1.5fr 1fr;
+  background: #3888ff;
 }
 
 .tratamentos-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  gap: 10px;
+  justify-items: center;
   align-items: center;
   padding: 60px;
 }
@@ -164,7 +163,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 220px;
-  height: 120px;
+  height: 150px;
   background-color: rgb(241, 241, 241);
   border-radius: 8px;
 }
@@ -188,125 +187,14 @@ header {
 
 .pet2-img {
   display: grid;
-  justify-items: center;
 }
 
-@media screen and (max-width: 730px) {
-  header {
-    margin-top: 0px;
-  }
-
-  .navbar {
-    padding: 1.5rem 4rem;
-  }
-
-  .nav-item {
-    display: none;
-  }
-
-  .login-button {
-    display: none;
-  }
-
-  .mobile-menu-icon {
-    display: block;
-  }
-
-  .mobile-menu-icon button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-
-  .mobile-menu ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: start;
-    padding-bottom: 1rem;
-  }
-
-  .mobile-menu .nav-item {
-    display: block;
-    padding-top: 1.2rem;
-  }
-
-  .mobile-menu .login-button {
-    display: block;
-    padding: 1rem 2rem;
-  }
-
-  .mobile-menu .login-button button {
-    width: 100%;
-    padding-left: 30px;
-  }
-
-  .open {
-    display: block;
-  }
-
-  .tela-inicio {
-    grid-template-columns: 1fr;
-  }
-
-  .tela-inicio-img {
-    display: flex;
-    justify-content: center;
-  }
-
-  .tela-inicio-img img {
-    width: 70%;
-  }
-
-  .tela-inicio-titulo {
-    text-align: start;
-    padding: 20px 60px;
-  }
-
-  .tela-inicio-titulo h1 {
-    font-size: 2.1rem;
-  }
-
-  .tela-inicio-titulo p {
-    font-size: 1.2rem;
-    margin: 20px 0px;
-  }
-
-  .petmobile {
-    display: block;
-  }
-
-  .pet1 {
-    display: none;
-  }
-
-  .btn-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .pet2-img img {
-    width: 100%;
-  }
-
-  .tratamentos-container {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 20px;
-    padding: 60px;
-  }
-
-  .tratamentos {
-    display: grid;
-    grid-template-columns: 1fr;
-    background: #0079ff;
-  }
-
-  .titulo-2 h1 {
-    font-size: 2.1rem;
-  }
-  .titulo-2 p {
-    font-size: 1.2rem;
-    margin: 20px 0;
-  }
+.pet2-img img {
+  display: grid;
+  justify-self: center;
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  object-position: center top;
+  width: 60%;
 }

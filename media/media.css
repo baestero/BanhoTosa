@@ -1,0 +1,149 @@
+@media screen and (max-width:1150px) {
+  header {
+    margin-top: 0px;
+  }
+
+  .navbar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: start;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .tela-inicio {
+    grid-template-columns: 1fr;
+  }
+
+  .tela-inicio-img {
+    display: flex;
+    justify-content: center;
+  }
+
+.tela-inicio-img img{
+  padding: 0 60px;
+}
+
+  .tela-inicio-titulo {
+    text-align: center;
+    padding: 20px 60px;
+  }
+
+  .tela-inicio-titulo h1 {
+    font-size: 2.1rem;
+  }
+
+  .tela-inicio-titulo p {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+
+  
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+ 
+
+  .pet2-img img {
+    width: 70%;
+  }
+
+  .tratamentos-container {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding: 60px;
+  }
+
+  .tratamentos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-2{
+    text-align: center;
+    padding: 30px 60px;
+
+  }
+
+  .titulo-2 h1 {
+    font-size: 2.1rem;
+    
+  }
+  .titulo-2 p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .pet2-img img{
+    width: 60%;
+    padding: 30px 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 590px) {
+
+  .tratamentos-container {
+    grid-template-columns: 1fr;
+  }
+
+  .tratamentos-container div {
+    width: 220px;
+    height: 120px;
+  }
+
+  .titulo-2{
+   padding: 20px 60px;
+  }
+
+  .pet2-img img{
+    width: 50%;
+  }
+
+
+}
