@@ -50,7 +50,7 @@ header {
 .nav-link {
   text-decoration: none;
   font-size: 1.15rem;
-  color: #faf2d3;
+  color: white;
   font-weight: 400;
 }
 
@@ -95,7 +95,7 @@ header {
 
 .tela-inicio-titulo p {
   font-size: 2rem;
-  color: #faf2d3;
+  color: white;
   margin: 20px 0px;
 }
 
@@ -133,7 +133,7 @@ header {
 }
 .titulo-2 p {
   font-size: 1.5rem;
-  color: #faf2d3;
+  color: white;
 }
 
 .tela-inicio-img img {
@@ -147,6 +147,7 @@ header {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   background: #3888ff;
+
 }
 
 .tratamentos-container {
@@ -162,23 +163,22 @@ header {
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 220px;
-  height: 150px;
+  width: 17.5rem;
+  height: 9.375rem;
   background-color: rgb(241, 241, 241);
   border-radius: 8px;
 }
 
 .tratamentos-container div p {
   text-align: center;
-  color: grey;
+  color: f7f7f7;
 }
 
 .container-item {
   display: grid;
   justify-items: center;
-
   gap: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .tratamentos img {
@@ -191,10 +191,10 @@ header {
 
 .pet2-img img {
   display: grid;
-  justify-self: center;
+  justify-self: start;
+  padding-left: 60px;
   max-width: 100%;
   object-fit: cover;
   height: 100%;
   object-position: center top;
-  width: 60%;
 }
