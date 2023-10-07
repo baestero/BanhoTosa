@@ -86,6 +86,7 @@ header {
 }
 
 .tela-inicio-titulo {
+  display: grid;
   text-align: start;
   padding: 60px;
 }
@@ -203,16 +204,18 @@ header {
 
 .secao3 {
   display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 60px;
+  grid-template-columns: 300px 300px 300px 300px;
   background: #59fab8;
   padding: 30px 60px 60px;
+
 }
 
 .cards {
   display: grid;
   gap: 20px;
-  width: 300px;
+  width: 18.75rem;
   background: white;
   padding: 20px;
   border-radius: 6px;
@@ -256,3 +259,5 @@ header {
   font-size: 1.5rem;
   color: white;
 }
+
+
