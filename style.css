@@ -15,6 +15,8 @@ body {
 
 header {
   background: #ffaf00;
+  position: sticky;
+  top: 0px;
 }
 
 .navbar {
@@ -27,7 +29,7 @@ header {
   display: flex;
 }
 
-.logo img{
+.logo img {
   width: 100px;
 }
 
@@ -122,16 +124,16 @@ header {
   width: 24px;
 }
 
-.titulo-2 {
+#titulo-2 {
   background-color: #3888ff;
-  padding: 60px 60px 0;
+  padding: 80px 60px 0;
 }
 
-.titulo-2 h1 {
+#titulo-2 h1 {
   font-size: 3rem;
   color: white;
 }
-.titulo-2 p {
+#titulo-2 p {
   font-size: 1.5rem;
   color: white;
 }
@@ -147,7 +149,6 @@ header {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   background: #3888ff;
-
 }
 
 .tratamentos-container {
@@ -167,6 +168,7 @@ header {
   height: 9.375rem;
   background-color: rgb(241, 241, 241);
   border-radius: 8px;
+  box-shadow: 0px 3px 10px #464646;
 }
 
 .tratamentos-container div p {
@@ -197,4 +199,60 @@ header {
   object-fit: cover;
   height: 100%;
   object-position: center top;
+}
+
+.secao3 {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #59fab8;
+  padding: 30px 60px 60px;
+}
+
+.cards {
+  display: grid;
+  gap: 20px;
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.cards img {
+  display: grid;
+  justify-self: center;
+  max-width: 70%;
+}
+
+.descriçao-card {
+  display: grid;
+  gap: 10px;
+}
+
+.descriçao-card h3 {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.preço {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#titulo-3 {
+  background-color: #59fab8;
+  padding: 60px 60px 0;
+}
+
+#titulo-3 h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+#titulo-3 p {
+  font-size: 1.5rem;
+  color: white;
 }
