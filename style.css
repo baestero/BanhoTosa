@@ -10,7 +10,7 @@
 body {
   display: grid;
   margin: 0 auto;
-  background: #e7e7e7;
+  background: #f7f7f7;
 }
 
 header {
@@ -127,7 +127,7 @@ header {
 
 #titulo-2 {
   background-color: #3888ff;
-  padding: 80px 60px 0;
+  padding: 60px 60px 0px;
 }
 
 #titulo-2 h1 {
@@ -150,6 +150,7 @@ header {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   background: #3888ff;
+  padding-top: 30px;
 }
 
 .tratamentos-container {
@@ -209,7 +210,6 @@ header {
   grid-template-columns: 300px 300px 300px 300px;
   background: #59fab8;
   padding: 30px 60px 60px;
-
 }
 
 .cards {
@@ -260,4 +260,42 @@ header {
   color: white;
 }
 
+#contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  width: 700px;
+  margin: 60px auto;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 3px 10px #464646;
+}
 
+.contato-item {
+  margin: 6rem auto;
+  line-height: 2;
+  text-align: start;
+}
+.contato-item p {
+  color: grey;
+}
+.contato-item h1 {
+  font-size: 1.5rem;
+}
+
+.contato-item2{
+border-radius: 6px;
+}
+
+.contato-item2:hover{
+  background-color:#f7f7f7;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 3px 10px #464646;
+}

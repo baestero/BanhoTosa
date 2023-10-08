@@ -153,7 +153,9 @@
   }
 
   .secao3 {
-    padding: 0 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-items: center;
   }
 }
 
@@ -182,10 +184,6 @@
     text-align: center;
   }
 
-  .secao-3 {
-    padding: 0px 60px;
-  }
-
   .tratamentos-container div {
     width: 220px;
     height: 120px;
@@ -202,8 +200,6 @@
 
   .secao3 {
     grid-template-columns: 300px;
-    padding: 0px;
-    justify-items: center;
   }
 
   .cards {
@@ -218,6 +214,18 @@
 
   .cards img {
     max-width: 60%;
+  }
+
+  #contato {
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+  .contato-item {
+    text-align: center;
+    margin: auto;
+  }
+  .contato-item2 img {
+    width: 80%;
   }
 }
 
@@ -255,8 +263,7 @@
 }
 
 @media screen and (max-width: 320px) {
- .navbar{
-  padding: 24px 30px;
- }
+  .navbar {
+    padding: 24px 30px;
+  }
 }
-
