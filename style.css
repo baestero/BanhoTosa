@@ -104,19 +104,19 @@ header {
 
 .btn-container {
   justify-content: start;
-  margin: 60px 0px;
+  margin: 30px 0px;
 }
 
 .btn {
   display: flex;
   gap: 0 10px;
-  font-size: 1rem;
-  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 2.5rem;
   background: #25d366;
   text-decoration: none;
   border: none;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 60px;
   color: white;
 }
 
@@ -124,6 +124,7 @@ header {
   height: 24px;
   width: 24px;
 }
+
 
 #titulo-2 {
   background-color: #3888ff;
@@ -155,22 +156,22 @@ header {
 
 .tratamentos-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  justify-items: center;
+  grid-template-columns: 280px 280px;
+  gap: 10px 20px;
+  justify-content: center;
   align-items: center;
   padding: 60px;
+  margin-right: 60px;
+  border-radius: 30px;
 }
 
 .tratamentos-container div {
   display: grid;
-  justify-content: center;
   align-items: center;
-  width: 17.5rem;
-  height: 9.375rem;
+  width: 280px;
+  height: 200px;
   background-color: rgb(241, 241, 241);
-  border-radius: 8px;
-
+  border-radius: 30px;
 }
 
 .tratamentos-container div p {
@@ -181,7 +182,6 @@ header {
 .container-item {
   display: grid;
   justify-items: center;
-  gap: 5px;
   padding: 20px;
 }
 
@@ -195,8 +195,7 @@ header {
 
 .pet2-img img {
   display: grid;
-  justify-self: start;
-  padding-left: 60px;
+  justify-self: START;
   max-width: 100%;
   object-fit: cover;
   height: 100%;
@@ -218,9 +217,8 @@ header {
   width: 18.75rem;
   background: white;
   padding: 20px;
-  border-radius: 6px;
+  border-radius: 30px;
   text-align: center;
-
 }
 
 .cards img {
@@ -283,12 +281,12 @@ header {
   font-size: 1.5rem;
 }
 
-.contato-item2{
-border-radius: 6px;
+.contato-item2 {
+  border-radius: 6px;
 }
 
-.contato-item2:hover{
-  background-color:#f7f7f7;
+.contato-item2:hover {
+  background-color: #f7f7f7;
 }
 
 .footer {
