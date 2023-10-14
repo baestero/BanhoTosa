@@ -120,9 +120,13 @@ header {
   color: white;
 }
 
+.btn:hover{
+background: #21bd5a;
+}
+
 .whatsapp {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
 }
 
 
@@ -173,6 +177,7 @@ header {
   background-color: rgb(241, 241, 241);
   border-radius: 30px;
 }
+
 
 .tratamentos-container div p {
   text-align: center;
@@ -238,6 +243,14 @@ header {
   font-weight: 500;
 }
 
+.cards hr{
+  height: 0px;
+}
+
+.dog4{
+margin-top: 30px;
+}
+
 .preço {
   font-weight: bold;
   font-size: 2.5rem;
@@ -264,7 +277,7 @@ header {
   background-color: #fff;
   width: 700px;
   margin: 60px auto;
-  border-radius: 6px;
+  border-radius: 30px;
   text-align: center;
   padding: 20px;
 }
