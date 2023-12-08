@@ -7,6 +7,10 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: grid;
   margin: 0 auto;
@@ -120,15 +124,14 @@ header {
   color: white;
 }
 
-.btn:hover{
-background: #21bd5a;
+.btn:hover {
+  background: #21bd5a;
 }
 
 .whatsapp {
   height: 30px;
   width: 30px;
 }
-
 
 #titulo-2 {
   background-color: #3888ff;
@@ -177,7 +180,6 @@ background: #21bd5a;
   background-color: rgb(241, 241, 241);
   border-radius: 30px;
 }
-
 
 .tratamentos-container div p {
   text-align: center;
@@ -243,12 +245,12 @@ background: #21bd5a;
   font-weight: 500;
 }
 
-.cards hr{
+.cards hr {
   height: 0px;
 }
 
-.dog4{
-margin-top: 30px;
+.dog4 {
+  margin-top: 30px;
 }
 
 .preço {
